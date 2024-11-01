@@ -1,0 +1,30 @@
+.registro-form h2 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .registro-form .error {
+    color: #ef4444;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+  }
+  
+  .registro-form .btn-registro {
+    background-color: #10b981;
+    color: white;
+    width: 100%;
+    padding: 0.625rem;
+    font-size: 1rem;
+  }
+  
+  .registro-form .btn-registro:hover {
+    background-color: #059669;
+  }
+  
+  .registro-form label {
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+    display: block;
+  }

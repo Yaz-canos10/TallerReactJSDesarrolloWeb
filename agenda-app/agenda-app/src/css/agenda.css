@@ -1,0 +1,43 @@
+.agenda h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .agenda .user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .agenda form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .agenda .btn-logout {
+    background-color: #ef4444;
+    color: white;
+  }
+  
+  .agenda .btn-logout:hover {
+    background-color: #dc2626;
+  }
+  
+  .agenda .btn-add {
+    background-color: #10b981;
+    color: white;
+    align-self: flex-start;
+  }
+  
+  .agenda .btn-add:hover {
+    background-color: #059669;
+  }
+  
+  .agenda label {
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+    display: block;
+  }

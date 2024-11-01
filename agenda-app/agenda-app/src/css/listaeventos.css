@@ -1,0 +1,43 @@
+.lista-eventos ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .lista-eventos li {
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .lista-eventos li:last-child {
+    border-bottom: none;
+  }
+  
+  .lista-eventos h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #2563eb;
+  }
+  
+  .lista-eventos .fecha {
+    font-weight: 500;
+    color: #4b5563;
+    margin-bottom: 0.5rem;
+  }
+  
+  .lista-eventos .descripcion {
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+  }
+  
+  .lista-eventos .btn-delete {
+    background-color: #ef4444;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+  }
+  
+  .lista-eventos .btn-delete:hover {
+    background-color: #dc2626;
+  }
